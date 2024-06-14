@@ -708,7 +708,7 @@ func moveDotGit(t *testing.T, from, to string) {
 			continue
 		}
 
-		err = os.Rename(fmt.Sprintf("%s/%s/%s", repoBasePath, dir.Name(), from),
+
 			fmt.Sprintf("%s/%s/%s", repoBasePath, dir.Name(), to))
 		require.NoError(t, err)
 	}
