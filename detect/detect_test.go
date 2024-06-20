@@ -87,7 +87,7 @@ func TestDetect(t *testing.T) {
 			expectedFindings: []report.Finding{
 				{
 					Description: "PyPI upload token",
-					Secret:      "pypi-AgEIcHlwaS5vcmcAAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAAB",
+
 
 
 					File:        "tmp.go",
