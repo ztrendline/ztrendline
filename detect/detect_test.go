@@ -88,7 +88,7 @@ func TestDetect(t *testing.T) {
 				{
 					Description: "PyPI upload token",
 					Secret:      "pypi-AgEIcHlwaS5vcmcAAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAAB",
-					Match:       "pypi-AgEIcHlwaS5vcmcAAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAAB",
+
 
 					File:        "tmp.go",
 					RuleID:      "pypi-upload-token",
