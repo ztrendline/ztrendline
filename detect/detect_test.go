@@ -81,7 +81,7 @@ func TestDetect(t *testing.T) {
 		{
 			cfgName: "escaped_character_group",
 			fragment: Fragment{
-				Raw:      `pypi-AgEIcHlwaS5vcmcAAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAA-AAAAAAAAAAB`,
+
 				FilePath: "tmp.go",
 			},
 			expectedFindings: []report.Finding{
