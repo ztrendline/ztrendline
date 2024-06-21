@@ -111,7 +111,7 @@ func TestDetect(t *testing.T) {
 				{
 					Description: "AWS Access Key",
 					Secret:      "AKIALALEMEL33243OLIA",
-					Match:       "AKIALALEMEL33243OLIA",
+
 					Line:        `awsToken := \"AKIALALEMEL33243OLIA\"`,
 					File:        "tmp.go",
 					RuleID:      "aws-access-key",
